@@ -3,10 +3,11 @@ header{
     color: #AD5300;
 }
 .esporte-imagem{
-       width: 5%;
+       width: 1%;
+       
 }
 .Tecnologia{
-       width: 5%;
+       width: 9%;
 }
 .Agricultura{
        width: 5%;
@@ -15,5 +16,8 @@ header{
        width: 5%;
 }
 .Educação{
-       width: 1%;
+       width: 5%;
+}
+.Politica{
+      width:  5%;
 }
