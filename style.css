@@ -1,23 +1,81 @@
-header{
-    background-color: #FFC47E;
-    color: #AD5300;
+*{
+       margin: 15;
+       padding: 20;
+   }
+   
+   .cabecalho {
+       background-color: #f7b257;
+       color: rgb(0, 0, 0);
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 24px 0;
+       font-size: 30px;
+   }
+   
+   .cabecalho-imagem{
+       width: 50%;
+   }
+   
+   .cabecalho-lista-item{
+       display: inline-block;
+       margin: 0 26px;
+       font-size: 30px;
+   }
+   body2{
+       color: rgb(0, 0, 0);
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       padding: 24px 0;
+       font-size: 30px;
 }
-.esporte-imagem{
-       width: 1%;
+
+  .Política{
+       display: inline-block;
+       margin: 0 30px;
+       font-size: 20px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bold;
+  }
+  .search-box{
+       position:absolute;
+       top: 5%;
+       left: 92%;
+       transform:translate(-95%, -8%) ;
+       background: #f7b257;
+       height: 35px;
+       padding: 7px;
+       border-radius: 50px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center ;
+  }
+  .search.text{
+       background: none;
+       border: 0;
+       outline: 0;
+       font-size: 16px;
+       width: 0;
+       padding: 0;
+       transition: 0.4m;
+  }
+  .search-btn{
+       width: 40px;
+       height: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 70%;
+       cursor: pointer;
+  }
+  .search-box:hover > .search.text{
+        width: 320px;
+        padding-left: 20px;
+  }
+  .search-box:hover > .search.text{
+       background: #447ce7;
+  }
+  .search-box:hover > .ssearch-btn{
        
-}
-.Tecnologia{
-       width: 9%;
-}
-.Agricultura{
-       width: 5%;
-}
-.Moda{
-       width: 5%;
-}
-.Educação{
-       width: 5%;
-}
-.Politica{
-      width:  5%;
-}
+  }
